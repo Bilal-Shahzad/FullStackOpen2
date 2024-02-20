@@ -1,8 +1,10 @@
+console.log("Connecting to MongoDB...");
+
 const mongoose = require('mongoose');
 
 const connectDB = async () => {
     try {
-        const password = ''; 
+        const password = 'BILSHAZ'; 
         const uri = `mongodb+srv://BILSHAZ:${password}@cluster0.vvqe6kj.mongodb.net/?retryWrites=true&w=majority`;
         const clientOptions = { serverApi: { version: '1', strict: true, deprecationErrors: true } };
         
