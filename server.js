@@ -4,6 +4,9 @@ const express = require('express');
 const cors = require('cors');
 const { connectDB } = require('./db');
 const blogRoutes = require('./routes/blogRoutes');
+const Blog = require('./models.js/blogModel'); 
+const Product = require('./models.js/productModel');
+
 
 const app = express();
 
