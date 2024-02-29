@@ -1,0 +1,13 @@
+###
+Send Request
+GET http://localhost:1337/setup
+
+###
+POST 
+GET http://localhost:1337
+Content-Type: application/json
+
+{
+    "name": "bilal", 
+    "locaition" : "23 hello world street "
+}
